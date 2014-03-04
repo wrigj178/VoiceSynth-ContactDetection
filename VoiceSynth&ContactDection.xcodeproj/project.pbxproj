@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB4158118C64776004F8E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB4158018C64776004F8E81 /* Foundation.framework */; };
+		8BB4158318C64776004F8E81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB4158218C64776004F8E81 /* CoreGraphics.framework */; };
+		8BB4158518C64776004F8E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB4158418C64776004F8E81 /* UIKit.framework */; };
+		8BB4158718C64776004F8E81 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB4158618C64776004F8E81 /* SpriteKit.framework */; };
+		8BB4158D18C64776004F8E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB4158B18C64776004F8E81 /* InfoPlist.strings */; };
+		8BB4158F18C64776004F8E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4158E18C64776004F8E81 /* main.m */; };
+		8BB4159318C64776004F8E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4159218C64776004F8E81 /* AppDelegate.m */; };
+		8BB4159618C64776004F8E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB4159418C64776004F8E81 /* Main.storyboard */; };
+		8BB4159918C64776004F8E81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4159818C64776004F8E81 /* ViewController.m */; };
+		8BB4159C18C64776004F8E81 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4159B18C64776004F8E81 /* MyScene.m */; };
+		8BB4159E18C64776004F8E81 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB4159D18C64776004F8E81 /* Spaceship.png */; };
+		8BB415A018C64776004F8E81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB4159F18C64776004F8E81 /* Images.xcassets */; };
+		8BB415A718C64776004F8E81 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB415A618C64776004F8E81 /* XCTest.framework */; };
+		8BB415A818C64776004F8E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB4158018C64776004F8E81 /* Foundation.framework */; };
+		8BB415A918C64776004F8E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB4158418C64776004F8E81 /* UIKit.framework */; };
+		8BB415B118C64776004F8E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB415AF18C64776004F8E81 /* InfoPlist.strings */; };
+		8BB415B318C64776004F8E81 /* VoiceSynth_ContactDectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB415B218C64776004F8E81 /* VoiceSynth_ContactDectionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BB415AA18C64776004F8E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB4157518C64776004F8E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB4157C18C64776004F8E81;
+			remoteInfo = "VoiceSynth&ContactDection";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BB4157D18C64776004F8E81 /* VoiceSynth&ContactDection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoiceSynth&ContactDection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB4158018C64776004F8E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BB4158218C64776004F8E81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BB4158418C64776004F8E81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BB4158618C64776004F8E81 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8BB4158A18C64776004F8E81 /* VoiceSynth&ContactDection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceSynth&ContactDection-Info.plist"; sourceTree = "<group>"; };
+		8BB4158C18C64776004F8E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BB4158E18C64776004F8E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BB4159018C64776004F8E81 /* VoiceSynth&ContactDection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceSynth&ContactDection-Prefix.pch"; sourceTree = "<group>"; };
+		8BB4159118C64776004F8E81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BB4159218C64776004F8E81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BB4159518C64776004F8E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB4159718C64776004F8E81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BB4159818C64776004F8E81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BB4159A18C64776004F8E81 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		8BB4159B18C64776004F8E81 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		8BB4159D18C64776004F8E81 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		8BB4159F18C64776004F8E81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BB415A518C64776004F8E81 /* VoiceSynth&ContactDectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VoiceSynth&ContactDectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB415A618C64776004F8E81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BB415AE18C64776004F8E81 /* VoiceSynth&ContactDectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceSynth&ContactDectionTests-Info.plist"; sourceTree = "<group>"; };
+		8BB415B018C64776004F8E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BB415B218C64776004F8E81 /* VoiceSynth_ContactDectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceSynth_ContactDectionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB4157A18C64776004F8E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB4158318C64776004F8E81 /* CoreGraphics.framework in Frameworks */,
+				8BB4158518C64776004F8E81 /* UIKit.framework in Frameworks */,
+				8BB4158718C64776004F8E81 /* SpriteKit.framework in Frameworks */,
+				8BB4158118C64776004F8E81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB415A218C64776004F8E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB415A718C64776004F8E81 /* XCTest.framework in Frameworks */,
+				8BB415A918C64776004F8E81 /* UIKit.framework in Frameworks */,
+				8BB415A818C64776004F8E81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB4157418C64776004F8E81 = {
+			isa = PBXGroup;
+			children = (
+				8BB4158818C64776004F8E81 /* VoiceSynth&ContactDection */,
+				8BB415AC18C64776004F8E81 /* VoiceSynth&ContactDectionTests */,
+				8BB4157F18C64776004F8E81 /* Frameworks */,
+				8BB4157E18C64776004F8E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB4157E18C64776004F8E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4157D18C64776004F8E81 /* VoiceSynth&ContactDection.app */,
+				8BB415A518C64776004F8E81 /* VoiceSynth&ContactDectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB4157F18C64776004F8E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4158018C64776004F8E81 /* Foundation.framework */,
+				8BB4158218C64776004F8E81 /* CoreGraphics.framework */,
+				8BB4158418C64776004F8E81 /* UIKit.framework */,
+				8BB4158618C64776004F8E81 /* SpriteKit.framework */,
+				8BB415A618C64776004F8E81 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB4158818C64776004F8E81 /* VoiceSynth&ContactDection */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4159118C64776004F8E81 /* AppDelegate.h */,
+				8BB4159218C64776004F8E81 /* AppDelegate.m */,
+				8BB4159418C64776004F8E81 /* Main.storyboard */,
+				8BB4159718C64776004F8E81 /* ViewController.h */,
+				8BB4159818C64776004F8E81 /* ViewController.m */,
+				8BB4159A18C64776004F8E81 /* MyScene.h */,
+				8BB4159B18C64776004F8E81 /* MyScene.m */,
+				8BB4159D18C64776004F8E81 /* Spaceship.png */,
+				8BB4159F18C64776004F8E81 /* Images.xcassets */,
+				8BB4158918C64776004F8E81 /* Supporting Files */,
+			);
+			path = "VoiceSynth&ContactDection";
+			sourceTree = "<group>";
+		};
+		8BB4158918C64776004F8E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB4158A18C64776004F8E81 /* VoiceSynth&ContactDection-Info.plist */,
+				8BB4158B18C64776004F8E81 /* InfoPlist.strings */,
+				8BB4158E18C64776004F8E81 /* main.m */,
+				8BB4159018C64776004F8E81 /* VoiceSynth&ContactDection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB415AC18C64776004F8E81 /* VoiceSynth&ContactDectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BB415B218C64776004F8E81 /* VoiceSynth_ContactDectionTests.m */,
+				8BB415AD18C64776004F8E81 /* Supporting Files */,
+			);
+			path = "VoiceSynth&ContactDectionTests";
+			sourceTree = "<group>";
+		};
+		8BB415AD18C64776004F8E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB415AE18C64776004F8E81 /* VoiceSynth&ContactDectionTests-Info.plist */,
+				8BB415AF18C64776004F8E81 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB4157C18C64776004F8E81 /* VoiceSynth&ContactDection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB415B618C64776004F8E81 /* Build configuration list for PBXNativeTarget "VoiceSynth&ContactDection" */;
+			buildPhases = (
+				8BB4157918C64776004F8E81 /* Sources */,
+				8BB4157A18C64776004F8E81 /* Frameworks */,
+				8BB4157B18C64776004F8E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VoiceSynth&ContactDection";
+			productName = "VoiceSynth&ContactDection";
+			productReference = 8BB4157D18C64776004F8E81 /* VoiceSynth&ContactDection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BB415A418C64776004F8E81 /* VoiceSynth&ContactDectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB415B918C64776004F8E81 /* Build configuration list for PBXNativeTarget "VoiceSynth&ContactDectionTests" */;
+			buildPhases = (
+				8BB415A118C64776004F8E81 /* Sources */,
+				8BB415A218C64776004F8E81 /* Frameworks */,
+				8BB415A318C64776004F8E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB415AB18C64776004F8E81 /* PBXTargetDependency */,
+			);
+			name = "VoiceSynth&ContactDectionTests";
+			productName = "VoiceSynth&ContactDectionTests";
+			productReference = 8BB415A518C64776004F8E81 /* VoiceSynth&ContactDectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB4157518C64776004F8E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jasmine Wright";
+				TargetAttributes = {
+					8BB415A418C64776004F8E81 = {
+						TestTargetID = 8BB4157C18C64776004F8E81;
+					};
+				};
+			};
+			buildConfigurationList = 8BB4157818C64776004F8E81 /* Build configuration list for PBXProject "VoiceSynth&ContactDection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB4157418C64776004F8E81;
+			productRefGroup = 8BB4157E18C64776004F8E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB4157C18C64776004F8E81 /* VoiceSynth&ContactDection */,
+				8BB415A418C64776004F8E81 /* VoiceSynth&ContactDectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB4157B18C64776004F8E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB4158D18C64776004F8E81 /* InfoPlist.strings in Resources */,
+				8BB415A018C64776004F8E81 /* Images.xcassets in Resources */,
+				8BB4159E18C64776004F8E81 /* Spaceship.png in Resources */,
+				8BB4159618C64776004F8E81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB415A318C64776004F8E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB415B118C64776004F8E81 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB4157918C64776004F8E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB4159C18C64776004F8E81 /* MyScene.m in Sources */,
+				8BB4159918C64776004F8E81 /* ViewController.m in Sources */,
+				8BB4159318C64776004F8E81 /* AppDelegate.m in Sources */,
+				8BB4158F18C64776004F8E81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB415A118C64776004F8E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB415B318C64776004F8E81 /* VoiceSynth_ContactDectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BB415AB18C64776004F8E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB4157C18C64776004F8E81 /* VoiceSynth&ContactDection */;
+			targetProxy = 8BB415AA18C64776004F8E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BB4158B18C64776004F8E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB4158C18C64776004F8E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BB4159418C64776004F8E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB4159518C64776004F8E81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB415AF18C64776004F8E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB415B018C64776004F8E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB415B418C64776004F8E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BB415B518C64776004F8E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB415B718C64776004F8E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceSynth&ContactDection/VoiceSynth&ContactDection-Prefix.pch";
+				INFOPLIST_FILE = "VoiceSynth&ContactDection/VoiceSynth&ContactDection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BB415B818C64776004F8E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceSynth&ContactDection/VoiceSynth&ContactDection-Prefix.pch";
+				INFOPLIST_FILE = "VoiceSynth&ContactDection/VoiceSynth&ContactDection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BB415BA18C64776004F8E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceSynth&ContactDection.app/VoiceSynth&ContactDection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceSynth&ContactDection/VoiceSynth&ContactDection-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoiceSynth&ContactDectionTests/VoiceSynth&ContactDectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8BB415BB18C64776004F8E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceSynth&ContactDection.app/VoiceSynth&ContactDection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceSynth&ContactDection/VoiceSynth&ContactDection-Prefix.pch";
+				INFOPLIST_FILE = "VoiceSynth&ContactDectionTests/VoiceSynth&ContactDectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB4157818C64776004F8E81 /* Build configuration list for PBXProject "VoiceSynth&ContactDection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB415B418C64776004F8E81 /* Debug */,
+				8BB415B518C64776004F8E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB415B618C64776004F8E81 /* Build configuration list for PBXNativeTarget "VoiceSynth&ContactDection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB415B718C64776004F8E81 /* Debug */,
+				8BB415B818C64776004F8E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BB415B918C64776004F8E81 /* Build configuration list for PBXNativeTarget "VoiceSynth&ContactDectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB415BA18C64776004F8E81 /* Debug */,
+				8BB415BB18C64776004F8E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB4157518C64776004F8E81 /* Project object */;
+}
