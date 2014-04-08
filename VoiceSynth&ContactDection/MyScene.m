@@ -132,9 +132,6 @@ static const uint32_t SCREENEDGE_CATEGORY = 0x1<<3;//<< is an oporator: gives th
     _redSquare.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:_redSquare.size];
     [_redSquare.physicsBody setCategoryBitMask:RED_CATEGORY];
                               [self addChild:_redSquare];
-                            
-                              
-    
 }
 
 -(void)spawnBlueSquare{
